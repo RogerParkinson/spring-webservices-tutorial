@@ -10,9 +10,10 @@
 	<groupId>com.blog.webservices</groupId>
 	<version>1.0</version>
 	<properties>
-		<spring.version>3.1.1.RELEASE</spring.version>
-		<spring.ws.version>2.0.0.RELEASE</spring.ws.version>
+		<spring.version>4.2.5.RELEASE</spring.version>
+		<spring.ws.version>2.2.4.RELEASE</spring.ws.version>
 		<log4j.version>1.2.16</log4j.version>
+		<apache.ws.version>1.6.19</apache.ws.version>
 		<context.path>spring-webservices-sample</context.path>
 		<java.version>1.8</java.version>
 	</properties>
@@ -142,10 +143,20 @@
 			<artifactId>spring-ws-core</artifactId>
 			<version>${spring.ws.version}</version>
 		</dependency>
+	    <dependency>
+	        <groupId>org.apache.ws.security</groupId>
+	        <artifactId>wss4j</artifactId>
+	        <version>${apache.ws.version}</version>
+	    </dependency>
+    		<dependency>
+		    <groupId>org.apache.ws.xmlschema</groupId>
+		    <artifactId>xmlschema-core</artifactId>
+		    <version>2.2.1</version>
+		</dependency>
 		<dependency>
-			<groupId>org.apache.ws.commons.schema</groupId>
-			<artifactId>XmlSchema</artifactId>
-			<version>1.4.3</version>
+		    <groupId>wsdl4j</groupId>
+		    <artifactId>wsdl4j</artifactId>
+		    <version>1.6.2</version>
 		</dependency>
 	  </dependencies>
 </project>
