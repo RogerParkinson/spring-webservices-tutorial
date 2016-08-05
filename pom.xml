@@ -41,7 +41,7 @@
 				</executions>
 				<configuration>
 					<clearOutputDir>false</clearOutputDir>
-					<outputDirectory>src/main/java</outputDirectory>
+					<outputDirectory>target/generated/xjc</outputDirectory>
 					<schemaDirectory>src/main/webapp/schemas</schemaDirectory>
 					<includeSchema>**/*.xsd</includeSchema>
 					<bindingDirectory>src/main/resources/bindings</bindingDirectory>

@@ -13,7 +13,7 @@ TODO:
  * Upgrade to spring 4.2.5 & spring-ws-core 2.2.4 (done)
  * Use logback (done)
  * Use servlet 3.0 and eliminate web.xml file
- * Move the generated files to target/generated
+ * Move the generated files to target/generated (done)
  * Add an attachment (actually two) to the request
  * Add an attachment to the response
   
