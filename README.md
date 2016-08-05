@@ -11,7 +11,7 @@ TODO:
 --
 
  * Upgrade to spring 4.2.3
- * Use logback
+ * Use logback (done)
  * Use servlet 3.0 and eliminate web.xml file
  * Move the generated files to target/generated
  * Add an attachment (actually two) to the request
