@@ -4,6 +4,7 @@ spring-webservices-tutorial
 Sample code that uses Spring 2.0.0, log4j and a servlet 2.5 web.xml file. Built with Maven and includes Eclipse facets.
 So it runs happily under the Eclipse Tomcat server.
 Provides a web service endpoint, testable with SOAPUI.
+Also does not need Spring Boot.
 
 from [http://briansjavablog.blogspot.co.nz/2013/01/spring-web-services-tutorial.html](http://briansjavablog.blogspot.co.nz/2013/01/spring-web-services-tutorial.html)
 
