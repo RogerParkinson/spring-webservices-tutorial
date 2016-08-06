@@ -11,7 +11,7 @@ import com.blog.samples.webservices.EnumAccountStatus;
 @Service
 public class AccountServiceImpl implements AccountService
 {
-
+	
 	/**
 	 * Gets the account details.
 	 *
@@ -28,7 +28,7 @@ public class AccountServiceImpl implements AccountService
 		account.setAccountStatus(EnumAccountStatus.ACTIVE);
 		account.setAccountName("Joe Bloggs");
 		account.setAccountBalance(3400);
-
+		
 		return account;
 	}
 }

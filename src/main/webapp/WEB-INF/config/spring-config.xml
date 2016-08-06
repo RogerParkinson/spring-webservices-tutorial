@@ -17,16 +17,11 @@
 	<!--
 		Our test service bean
 	-->
-	<bean id="AccountDetailsService" class="org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition" lazy-init="true">
-        <property name="schemaCollection">
-            <bean class="org.springframework.xml.xsd.commons.CommonsXsdSchemaCollection">
-                <property name="inline" value="true" />
-                <property name="xsds">
-                    <list>
-                        <value>schemas/AccountDetailsServiceOperations.xsd</value>
-                    </list>
-                </property>
-            </bean>
+	<bean id="AccountDetailsService" class="org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition">
+        <property name="schema">
+        	<bean class="org.springframework.xml.xsd.SimpleXsdSchema">
+        		<property name="xsd" value="classpath:AccountDetailsServiceOperations.xsd"/>
+        	</bean>
         </property>
         <property name="portTypeName" value="AccountDetailsService"/>
         <property name="serviceName" value="AccountDetailsServices" />
