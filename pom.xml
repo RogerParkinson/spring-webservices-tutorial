@@ -22,6 +22,7 @@
 			<plugin>
 				<inherited>true</inherited>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
 				<configuration>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
@@ -48,7 +49,7 @@
 				<configuration>
 					<clearOutputDir>false</clearOutputDir>
 					<outputDirectory>target/generated/xjc</outputDirectory>
-					<schemaDirectory>src/main/webapp/schemas</schemaDirectory>
+					<schemaDirectory>src/main/resources</schemaDirectory>
 					<includeSchema>**/*.xsd</includeSchema>
 					<bindingDirectory>src/main/resources/bindings</bindingDirectory>
 					<enableIntrospection>false</enableIntrospection>
@@ -57,6 +58,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
+				<version>2.2</version>
 				<configuration>
 					<warName>${context.path}</warName>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
