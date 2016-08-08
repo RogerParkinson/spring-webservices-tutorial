@@ -18,7 +18,7 @@ TODO:
  * change to @config (done)
  * Use servlet 3.0 and eliminate web.xml file (done)
  * Move the generated files to target/generated (done)
- * wsdl is not generating correctly, can't build client
+ * wsdl is not generating correctly, can't build client (fixed)
  * Add an attachment (actually two) to the request
  * Add an attachment to the response
   
