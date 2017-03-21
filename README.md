@@ -8,7 +8,10 @@ Also does not need Spring Boot. I had problems with incompatibilities with Sprin
 
 Adapted from [http://briansjavablog.blogspot.co.nz/2013/01/spring-web-services-tutorial.html](http://briansjavablog.blogspot.co.nz/2013/01/spring-web-services-tutorial.html)
 
-WSDL is at http://localhost:8080/spring-webservices-sample/endpoints/AccountDetailsService.wsdl
+WSDL is at [http://localhost:8080/spring-webservices-sample/endpoints/AccountDetailsService.wsdl](http://localhost:8080/spring-webservices-sample/endpoints/AccountDetailsService.wsdl)
+When testing with SOAPUI make sure you paste in the path as shown below:
+
+<img src="soap.png" alt="Drawing" style="width: 800px;"/>
 
 Changes from original code:
 --
